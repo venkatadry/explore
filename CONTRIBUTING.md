@@ -1,111 +1,96 @@
-# Contributing
+Which one of these is a Bower Concept?
+Package
 
-Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
+Grunt Relies on
+Both the options
 
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+The following is the syntax of installing a Component in Bower
+bower install component-name
 
-There are a few ways you can contribute:
+Grunt runs tasks using Temporary files which are disk I/O operations.
+True
 
-- Improving an existing topic or collection
-- Curating a new topic or collection
+Bower was introduced by engineers at:
+twitter
 
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.
+In Package.json, to include the latest version we can use
+.symbol
 
-Note: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
 
-## Improving an existing topic or collection
+Bower is a new package manager for
+Client side Components
 
-If a topic or collection already exists, it will be listed in its respective directory:
+----------------------------------------
 
-- [topics/](https://github.com/github/explore/tree/master/topics)
-- [collections/](https://github.com/github/explore/tree/master/collections)
+When will you start writing the unit test?
+as soon as possible
 
-The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/master/topics/rails).
+app folder contains and tests folder contains _
+script files, tests
 
-To make an improvement, please **open a pull request** with your proposed changes:
+This will act as a type of documentation because it describes the expected behavior of the functions and modules.
+Unit Testing
 
-### Update the image
+This one allows you to inject and mock angular services to help you test your application
+ngMock
 
-To update the image, simply replace the image inside the directory for the topic or collection.
 
-### Update text and links
+This is all about splitting your code into small testable modules with each module having its own functionality and level of abstraction.
+linkedIn
 
-To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
+----------------------
+The testing framework we have used in our course is
+Jasmine
 
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md)," data like the its canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.
+Testing an individual working part of a source code is called
+Unit testing
 
-_/topics/algorithm/index.md_:
-```
----
-aliases: algorithms
-display_name: Algorithm
-short_description: Algorithms are self-contained sequences that carry out a variety of tasks.
-topic: algorithm
-wikipedia_url: https://en.wikipedia.org/wiki/Algorithm
----
-Algorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.
-```
 
----
+To run the test, we have to type
+karma start
 
-Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/master/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
 
-_/collections/music/index.md_:
+What will be the output of the following snippet , if we pass 3e,5
 
-```
----
-items:
- - beetbox/beets
- - scottschiller/SoundManager2
- - CreateJS/SoundJS
- - musescore/MuseScore
- - tomahawk-player/tomahawk
- - cashmusic/platform
- - mopidy/mopidy
- - AudioKit/AudioKit
- - Soundnode/soundnode-app
- - gillesdemey/Cumulus
- - metabrainz/picard
- - overtone/overtone
- - samaaron/sonic-pi
-display_name: Music
-created_by: jonrohan
----
-Drop the code bass with these musically themed repositories.
-```
+vm.add = function(a,b){
+        if(typeof a !== 'number' || typeof b !== 'number'){
+            return 'invalid args';
+        }
+        return a+b;
+    }
+invalid args
+----------------------------------------------------------------------------------
+The following code is used to install protractor
 
----
+npm install -g protractor
+Globally
 
-The [pull request template](./.github/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.
 
-**Please fill out the pull request template completely.** If you do not fill out the template, your PR will be closed.
 
-## Curating a new topic or collection
 
-If a topic or collection is not yet curated, it will NOT be listed in its respective directory.
+The E2E testing framework for AngularJS is
+Protractor
 
-We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/), or a topic that currently lacks important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
 
-Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
+Protractor is built on top of
+WebDriverJS
 
-To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
 
-This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
 
-**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
+In AngularJS, a controller can be tested with
+Jasmine & Protractor
 
-## Guidelines
+Protrator & Karma xx
 
-* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
+Jasmine & Karma
 
-## Running tests
+None of the options
 
-There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis
-CI will run the tests automatically. If you want to run the tests yourself locally, you will need
-Ruby and Bundler installed.
 
-You can run the tests using:
 
-```bash
-script/cibuild
-```
+The webdriver-manager can be used and the necessary binaries can be downloaded using
+webdriver-manager binary-update xxx
+webdriver-manager update-binaries
+webdriver-manager update-binary
+webdriver-manager auto-update
+webdriver-manager update
